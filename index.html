@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="/app.js"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-main">
+        <h5 id="result-text">Choose Rock Paper or Scissors 👇</h5>
+
+        <div class="container" id='rps-btns'>
+            <div class='button aqua' data-name='rock'><img src="/assets/rock.png" alt="rock"></div>
+            <div class='button purple' data-name='paper'><img src="/assets/paper.png" alt="paper"></div>
+            <div class='button blue' data-name='scissors'><img src="/assets/scissors.png" alt="scissors">
+            </div>
+        </div>
+        <div class="container">
+            <div class="score-section">
+                <p>😀 Player Score: <span id="player-score"></span></p>
+                <p>💻 Computer Score: <span id="computer-score"></span></p>
+            </div>
+        </div>
+        <div class='container'>
+            <div id='reset-btn' class="reset-section">
+                <p>⚡️ Reset Game</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
